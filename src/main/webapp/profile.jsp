@@ -8,11 +8,27 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Welcome</title>
+    <%@include file="Partials/head.jsp" %>
 </head>
 <body>
-<h1>Welcome</h1>
+<%@include file="Partials/navbar.jsp" %>
+<div class="container my-5">
+    <div class="text-center">Success</div>
+    <div class="row">
+        <h4 class="text-center">Hello Admin</h4>
+    </div>
 
-<div><p>Lorem ipsum dolor sit amet.</p></div>
+    <div class="col">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime modi recusandae repudiandae totam.
+    </div>
+
+</div>
+
+<%@include file="Partials/sections.jsp"%>
+<%@include file="Partials/sections.jsp"%>
+<%@include file="Partials/sections.jsp"%>
+
+<%@include file="Partials/footer.jsp" %>
+<%@include file="Partials/bootstrap.jsp"%>
 </body>
 </html>
