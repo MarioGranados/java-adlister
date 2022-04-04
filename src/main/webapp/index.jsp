@@ -3,7 +3,7 @@
 <html>
 <head>
     <jsp:include page="partials/head.jsp">
-        <jsp:param name="title" value="Welcome to my site!" />
+        <jsp:param name="title" value="Viewing All Ads"/>
     </jsp:include>
 </head>
 <body>
