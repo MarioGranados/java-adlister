@@ -20,7 +20,6 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         boolean validAttempt = username.equals("admin") && password.equals("password");
-        request.getSession().setAttribute("user", false);
 
         if (validAttempt) {
             request.getSession().setAttribute("user", true);
