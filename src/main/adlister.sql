@@ -8,8 +8,7 @@ CREATE TABLE users (
     PRIMARY KEY (id)
 );
 
-CREATE TABLE Ads (
-    id INT UNSIGNED NOT NULL,
+CREATE TABLE ads (
     user_id INT UNSIGNED NOT NULL,
     title VARCHAR(25) NOT NULL,
     description VARCHAR(100) NOT NULL,
